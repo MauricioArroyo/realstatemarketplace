@@ -1,10 +1,11 @@
-pragma solidity >=0.4.21 <0.6.0;
+//SPDX-License-Identifier: CC BY-NC-ND 4.0
+pragma solidity ^0.8.17;
 
 contract Migrations {
   address public owner;
   uint public last_completed_migration;
 
-  constructor() public {
+  constructor() {
     owner = msg.sender;
   }
 
