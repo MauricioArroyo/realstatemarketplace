@@ -30,7 +30,7 @@ To install and compile the contracts, run the following commands:
 npm install
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Test smart contracts
+Unit Tests
 --------------------
 
 I created unit tests for the requested functionality. To check those tests you
@@ -47,7 +47,7 @@ contracts:
 truffle test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-![](images/Unit Testing.jpg)
+![](images/UnitTesting.jpg)
 
 Implement ZoKrates
 ------------------
@@ -137,7 +137,7 @@ node mint.js
 Once the solutions are generated and the corresponding tokens are minted, the
 result can be verified using Etherscan with the Goerli network.
 
-![](images/Tokens minted.jpg)
+![](images/TokensMinted.jpg)
 
 OpenSea
 -------
@@ -153,7 +153,7 @@ https://testnets.opensea.io/assets/0x65B1989DF4dBc6CF7af6d1c91b1d1C2df48B53A0/<t
 In OpenSea, we can go to the collection and setup the listing for each one
 specifying a sell value.
 
-![](images/Collection in MarketPlace.jpg)
+![](images/CollectionInMarketPlace.jpg)
 
 Once the sell value is defined, each one will show it
 
